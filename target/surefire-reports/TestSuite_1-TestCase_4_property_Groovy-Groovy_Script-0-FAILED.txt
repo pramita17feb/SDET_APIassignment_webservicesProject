@@ -1,0 +1,12 @@
+Status: FAILED
+Time Taken: 190
+Size: 0
+Timestamp: Tue Sep 01 15:45:00 IST 2020
+TestStep: Groovy Script
+Error:groovy.lang.MissingMethodException: No signature of method: com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run() is applicable for argument types: (null, java.lang.Boolean) values: [null, false]
+Possible solutions: run(com.eviware.soapui.model.testsuite.TestCaseRunner, com.eviware.soapui.model.testsuite.TestCaseRunContext), dump(), grep(), find(), any(), wait()
+
+----------------- Messages ------------------------------
+groovy.lang.MissingMethodException: No signature of method: com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run() is applicable for argument types: (null, java.lang.Boolean) values: [null, false]
+Possible solutions: run(com.eviware.soapui.model.testsuite.TestCaseRunner, com.eviware.soapui.model.testsuite.TestCaseRunContext), dump(), grep(), find(), any(), wait()
+error at line: 9

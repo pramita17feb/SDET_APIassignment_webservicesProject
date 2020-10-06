@@ -1,0 +1,45 @@
+Status: FAILED
+Time Taken: 300
+Size: 0
+Timestamp: Tue Sep 01 15:43:17 IST 2020
+TestStep: Property Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Missing target property
+
+----------------- Messages ------------------------------
+Performed transfer [customerEmail]
+Performed transfer [sku]
+Performed transfer [qtyOrdered]
+Performed transfer [price]
+Performed transfer [paymentMeth]
+Error performing transfer [id] - Missing target property
+----------------------------------------------------
+customerEmail transferred [[mohankrishna176@gmail.com]] from [Properties.customerEmail] to [save.Request]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//*:customerEmail
+sku transferred [[SKU00001]] from [Properties.sku] to [save.Request]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//sku
+qtyOrdered transferred [[3]] from [Properties.qtyOrdered] to [save.Request]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//qtyOrdered
+price transferred [[100]] from [Properties.price] to [save.Request]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//price
+paymentMeth transferred [[checkmo]] from [Properties.paymentMethod] to [save.Request]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//method
+id transferred [[Missing target property]] from [Properties.id] to [save.null]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//id

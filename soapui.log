@@ -1,0 +1,137 @@
+2020-09-02 14:06:42,687 WARN  [SoapUI] Missing folder [C:\Users\PramitaGhosh\Downloads\SDETLearning_Manipal\webservicesProject\my-app\ext] for external libraries
+2020-09-02 14:06:42,993 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PramitaGhosh\soapui-settings.xml]
+2020-09-02 14:06:48,353 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PramitaGhosh/Downloads/SDETLearning_Manipal/webservicesProject/my-app/salesOrder-soapui-project.xml]
+2020-09-02 14:06:49,537 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [salesOrder]
+2020-09-02 14:06:49,546 INFO  [SoapUITestCaseRunner] Running Project [salesOrder], runType = SEQUENTIAL
+2020-09-02 14:06:49,599 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1 Property Transfer]
+2020-09-02 14:06:49,649 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-02 14:06:49,749 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-09-02 14:06:50,378 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 14:06:53,144 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:06:53,144 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-09-02 14:06:53,147 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-09-02 14:06:53,151 INFO  [SoapUITestCaseRunner] running step [getList]
+2020-09-02 14:09:13,277 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:09:13,278 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-09-02 14:09:13,280 INFO  [SoapUITestCaseRunner] running step [Property Transfer orderId]
+2020-09-02 14:09:13,305 INFO  [SoapUITestCaseRunner] running step [getById]
+2020-09-02 14:09:14,747 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:09:14,749 INFO  [SoapUITestCaseRunner] running step [getStatus]
+2020-09-02 14:09:15,860 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:09:15,863 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-09-02 14:09:15,873 INFO  [SoapUITestCaseRunner] running step [cancelRequest]
+2020-09-02 14:09:16,845 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:09:16,846 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-09-02 14:09:16,849 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1 Property Transfer], time taken: 147110ms, status: FINISHED
+2020-09-02 14:09:16,868 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 2 Property Expantion]
+2020-09-02 14:09:16,870 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-02 14:09:16,873 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 14:09:18,213 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:09:18,219 INFO  [SoapUITestCaseRunner] running step [getList]
+2020-09-02 14:11:11,083 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:11:11,084 INFO  [SoapUITestCaseRunner] running step [getById]
+2020-09-02 14:11:14,166 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:11:14,168 INFO  [SoapUITestCaseRunner] running step [getStatus]
+2020-09-02 14:11:16,251 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:11:16,254 INFO  [SoapUITestCaseRunner] running step [cancelRequest]
+2020-09-02 14:11:18,081 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:11:18,085 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 2 Property Expantion], time taken: 121173ms, status: FINISHED
+2020-09-02 14:11:18,098 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 3 Groovy]
+2020-09-02 14:11:18,102 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-09-02 14:11:20,086 INFO  [log] Email=mohankrishna176@gmail.com
+2020-09-02 14:11:20,094 INFO  [log] sku=SKU00001
+2020-09-02 14:11:20,096 INFO  [log] qtyOrdered=3
+2020-09-02 14:11:20,099 INFO  [log] Price=100
+2020-09-02 14:11:20,100 INFO  [log] paymentMethod=checkmo
+2020-09-02 14:11:20,111 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 2 Property Expantion]
+2020-09-02 14:11:20,116 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-02 14:11:20,118 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 14:11:21,211 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:11:21,212 INFO  [SoapUITestCaseRunner] running step [getList]
+2020-09-02 14:13:16,161 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:13:16,162 INFO  [SoapUITestCaseRunner] running step [getById]
+2020-09-02 14:13:18,681 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:13:18,684 INFO  [SoapUITestCaseRunner] running step [getStatus]
+2020-09-02 14:13:20,564 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:13:20,570 INFO  [SoapUITestCaseRunner] running step [cancelRequest]
+2020-09-02 14:13:22,548 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:13:22,551 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 2 Property Expantion], time taken: 122403ms, status: FINISHED
+2020-09-02 14:13:22,557 INFO  [log] Status=FINISHED, time taken to complete is :122403 ms
+2020-09-02 14:13:22,651 INFO  [log] number of test steps executed are :6
+2020-09-02 14:13:22,653 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 14:13:24,039 INFO  [log] 1574
+2020-09-02 14:13:24,042 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:13:24,042 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-02 14:13:24,043 INFO  [SoapUITestCaseRunner] running step [getList]
+2020-09-02 14:15:21,621 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:15:21,623 INFO  [SoapUITestCaseRunner] running step [getById]
+2020-09-02 14:15:22,679 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:15:22,681 INFO  [SoapUITestCaseRunner] running step [getStatus]
+2020-09-02 14:15:23,652 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:15:23,656 INFO  [SoapUITestCaseRunner] running step [cancelRequest]
+2020-09-02 14:15:24,678 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:15:24,679 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 3 Groovy], time taken: 246548ms, status: FINISHED
+2020-09-02 14:15:24,696 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 4 property Groovy]
+2020-09-02 14:15:24,701 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-09-02 14:15:24,829 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 2 Property Expantion]
+2020-09-02 14:15:24,831 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-02 14:15:24,833 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 14:15:25,884 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:15:25,886 INFO  [SoapUITestCaseRunner] running step [getList]
+2020-09-02 14:17:36,494 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 14:17:36,495 INFO  [SoapUITestCaseRunner] running step [getById]
+2020-09-02 14:17:37,568 ERROR [WsdlSubmit] Exception in request: org.apache.http.NoHttpResponseException: The target server failed to respond
+2020-09-02 14:17:37,581 ERROR [SoapUI] An error occurred [The target server failed to respond], see error log for details
+2020-09-02 14:17:37,585 ERROR [errorlog] org.apache.http.NoHttpResponseException: The target server failed to respond
+org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:101)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at com.eviware.soapui.impl.wsdl.support.http.HttpClientSupport$SoapUIHttpRequestExecutor.doReceiveResponse(HttpClientSupport.java:147)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:633)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:454)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at com.eviware.soapui.impl.wsdl.support.http.HttpClientSupport$Helper.execute(HttpClientSupport.java:247)
+	at com.eviware.soapui.impl.wsdl.support.http.HttpClientSupport.execute(HttpClientSupport.java:362)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.submitRequest(HttpClientRequestTransport.java:324)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.sendRequest(HttpClientRequestTransport.java:237)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.run(WsdlSubmit.java:127)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.submitRequest(WsdlSubmit.java:80)
+	at com.eviware.soapui.impl.wsdl.WsdlRequest.submit(WsdlRequest.java:242)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:419)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:81)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:645)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:77)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at Script1.run(Script1.groovy:10)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:100)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:154)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-02 14:17:38,680 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status UNKNOWN
+2020-09-02 14:17:38,681 ERROR [SoapUITestCaseRunner] getById failed, exporting to [C:\Users\PramitaGhosh\Downloads\SDETLearning_Manipal\webservicesProject\my-app\target/surefire-reports\TestSuite_1-TestCase_2_Property_Expantion-getById-0-FAILED.txt]
+2020-09-02 14:17:38,688 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 2 Property Expantion], time taken: 133840ms, status: FAILED
+2020-09-02 14:17:38,703 INFO  [log] Status=FAILED, time taken to complete is :133840 ms
+2020-09-02 14:17:38,706 INFO  [log] number of test steps executed are :4
+2020-09-02 14:17:38,707 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 4 property Groovy], time taken: 134002ms, status: FINISHED
+2020-09-02 14:17:38,709 INFO  [SoapUITestCaseRunner] Project [salesOrder] finished with status [FINISHED] in 649145ms

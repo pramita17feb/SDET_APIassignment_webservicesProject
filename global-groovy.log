@@ -1,0 +1,28 @@
+2020-09-01 15:43:55,229 INFO  [log] Email=mohankrishna176@gmail.com
+2020-09-01 15:43:55,230 INFO  [log] sku=SKU00001
+2020-09-01 15:43:55,232 INFO  [log] qtyOrdered=3
+2020-09-01 15:43:55,236 INFO  [log] Price=100
+2020-09-01 15:43:55,237 INFO  [log] paymentMethod=checkmo
+2020-09-01 15:44:28,883 INFO  [log] Status=FINISHED, time taken to complete is :33624 ms
+2020-09-01 15:44:28,912 INFO  [log] number of test steps executed are :6
+2020-09-01 15:44:30,023 INFO  [log] 1480
+2020-09-02 11:31:08,288 INFO  [log] Email=mohankrishna176@gmail.com
+2020-09-02 11:31:08,290 INFO  [log] sku=SKU00001
+2020-09-02 11:31:08,295 INFO  [log] qtyOrdered=3
+2020-09-02 11:31:08,299 INFO  [log] Price=100
+2020-09-02 11:31:08,301 INFO  [log] paymentMethod=checkmo
+2020-09-02 11:31:52,327 INFO  [log] Status=FINISHED, time taken to complete is :43930 ms
+2020-09-02 11:31:52,435 INFO  [log] number of test steps executed are :6
+2020-09-02 11:31:53,492 INFO  [log] 1568
+2020-09-02 11:33:10,083 INFO  [log] Status=FINISHED, time taken to complete is :38051 ms
+2020-09-02 11:33:10,087 INFO  [log] number of test steps executed are :6
+2020-09-02 14:11:20,086 INFO  [log] Email=mohankrishna176@gmail.com
+2020-09-02 14:11:20,094 INFO  [log] sku=SKU00001
+2020-09-02 14:11:20,096 INFO  [log] qtyOrdered=3
+2020-09-02 14:11:20,099 INFO  [log] Price=100
+2020-09-02 14:11:20,100 INFO  [log] paymentMethod=checkmo
+2020-09-02 14:13:22,557 INFO  [log] Status=FINISHED, time taken to complete is :122403 ms
+2020-09-02 14:13:22,651 INFO  [log] number of test steps executed are :6
+2020-09-02 14:13:24,039 INFO  [log] 1574
+2020-09-02 14:17:38,703 INFO  [log] Status=FAILED, time taken to complete is :133840 ms
+2020-09-02 14:17:38,706 INFO  [log] number of test steps executed are :4
